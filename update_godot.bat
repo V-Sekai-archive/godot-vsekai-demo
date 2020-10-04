@@ -3,6 +3,10 @@ git branch -D groups
 git checkout 3.2
 git pull
 git checkout -b groups 3.2
+git remote rm SaracenOne
+git remote rm lyuma
+git remote add SaracenOne https://github.com/SaracenOne/godot
+git remote add lyuma https://github.com/lyuma/godot
 git fetch SaracenOne
 git fetch lyuma
 git merge remotes/SaracenOne/fire_skeleton_inspector
