@@ -19,4 +19,4 @@ echo -e "Work"
 git checkout master --force
 git branch -D groups
 git as -av
-git push -f groups remotes/v-sekai-godot
+git push -u -f groups remotes/v-sekai-godot
