@@ -11,8 +11,12 @@ git fetch godot-fire
 git remote rm godotengine
 git remote add godotengine https://github.com/godotengine/godot
 git fetch godotengine
+git remote rm v-sekai-godot
+git remote add v-sekai-godot git@github.com:SaracenOne/godot.git
+git fetch v-sekai-godot
 
 echo -e "Work"
 git checkout master --force
 git branch -D groups
 git as -av
+git push -f groups remotes/v-sekai-godot/groups
