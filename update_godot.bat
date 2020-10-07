@@ -21,4 +21,5 @@ git merge remotes/SaracenOne/pool_range_ops
 git merge remotes/lyuma/non_normalized_weight_fixes
 git merge remotes/SaracenOne/runtime_wave_loader
 git merge remotes/SaracenOne/load_interactive_no_cache
+git merge remotes/SaracenOne/skeleton_ik_fix
 rem git merge editor_plugin_node_ownership
