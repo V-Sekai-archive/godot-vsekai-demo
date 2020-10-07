@@ -1,10 +1,13 @@
 # Checkout remotes
 git remote rm SaracenOne
 git remote rm lyuma
+git remote rm v-sekai
 git remote add SaracenOne https://github.com/SaracenOne/godot
 git remote add lyuma https://github.com/lyuma/godot
+git remote add v-sekai https://github.com/v-sekai/godot
 git fetch SaracenOne
 git fetch lyuma
+git fetch v-sekai
 
 # Work
 git checkout master
@@ -28,4 +31,5 @@ git merge remotes/lyuma/non_normalized_weight_fixes
 git merge remotes/SaracenOne/runtime_wave_loader
 git merge remotes/SaracenOne/load_interactive_no_cache
 git merge remotes/SaracenOne/skeleton_ik_fix
+git merge remotes/v-sekai/vr_fixes
 rem git merge editor_plugin_node_ownership
