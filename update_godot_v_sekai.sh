@@ -16,6 +16,9 @@ git fetch godotengine
 git remote rm v-sekai-godot || true
 git remote add v-sekai-godot git@github.com:v-sekai/godot.git
 git fetch v-sekai-godot
+git remote rm TwistedTwigleg || true
+git remote add TwistedTwigleg https://github.com/TwistedTwigleg/godot.git
+git fetch TwistedTwigleg
 
 echo -e "Work"
 git checkout master --force
