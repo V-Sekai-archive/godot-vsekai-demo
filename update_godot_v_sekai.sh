@@ -1,7 +1,7 @@
 set -e
 
 echo -e "Checkout remotes"
-git remote rm SaracenOne
+git remote rm SaracenOne || true
 git remote add SaracenOne https://github.com/SaracenOne/godot
 git fetch SaracenOne
 git remote rm lyuma || true
@@ -10,7 +10,7 @@ git fetch lyuma
 git remote rm godot-fire || true
 git remote add godot-fire https://github.com/godot-extended-libraries/godot-fire
 git fetch godot-fire
-git remote rm godotengine
+git remote rm godotengine || true
 git remote add godotengine https://github.com/godotengine/godot
 git fetch godotengine
 git remote rm v-sekai-godot || true
@@ -21,6 +21,7 @@ git remote add TwistedTwigleg https://github.com/TwistedTwigleg/godot.git
 git fetch TwistedTwigleg
 
 echo -e "Work"
+git stash
 git checkout master --force
 git branch -D groups || true
 python3 ./thirdparty/git-assembler -av
