@@ -1,5 +1,5 @@
 stage groups remotes/godotengine/3.2
-merge groups remotes/godot-fire/feature/3.2/skeleton-mod
+merge groups remotes/SaracenOne/skeleton_ik_fix
 merge groups remotes/SaracenOne/colshape_race_cond_fix
 merge groups remotes/SaracenOne/scene_tree_improvements
 merge groups remotes/SaracenOne/filesystem_dock_resource_converter
