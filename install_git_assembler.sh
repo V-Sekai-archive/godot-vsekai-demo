@@ -1,3 +1,4 @@
-sudo curl -L https://gitlab.com/wavexx/git-assembler/-/raw/master/git-assembler -o /usr/local/bin/git-assembler
-sudo chmod +x /usr/local/bin/git-assembler
-git config --global alias.as assembler
+mkdir -p thirdparty
+curl -L https://gitlab.com/wavexx/git-assembler/-/raw/master/git-assembler -o ./thirdparty/git-assembler
+chmod +x ./thirdparty/git-assembler
+git config rerere.enabled true

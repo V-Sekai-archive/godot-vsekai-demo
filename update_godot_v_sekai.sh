@@ -20,7 +20,7 @@ git fetch v-sekai-godot
 echo -e "Work"
 git checkout master --force
 git branch -D groups || true
-git as -av
+./thirdparty/git-assembler -av
 git checkout groups -f
 git push -u -f v-sekai-godot groups
 git checkout master -f
