@@ -20,7 +20,7 @@ git remote rm TwistedTwigleg || true
 git remote add TwistedTwigleg https://github.com/TwistedTwigleg/godot.git
 git fetch TwistedTwigleg
 git remote rm JFonS || true
-git remote add JFonS hthttps://github.com/JFonS/godot.git
+git remote add JFonS https://github.com/JFonS/godot.git
 git fetch JFonS
 
 echo -e "Work"
