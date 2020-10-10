@@ -18,3 +18,4 @@ merge groups remotes/SaracenOne/load_interactive_no_cache
 merge groups remotes/SaracenOne/skeleton_ik_fix
 merge groups remotes/v-sekai-godot/vr_fixes
 merge groups remotes/godot-fire/feature/3.2/spatial-audio
+merge groups remotes/godot-fire/feature/3.2/mesh-unwrap
