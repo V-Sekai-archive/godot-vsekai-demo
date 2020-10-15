@@ -13,7 +13,8 @@ merge groups remotes/SaracenOne/renik
 merge groups remotes/SaracenOne/main_scene
 merge groups remotes/SaracenOne/threaddesc
 merge groups remotes/SaracenOne/pool_range_ops
-merge groups remotes/lyuma/skeleton_inspector_bugfix
+merge groups remotes/lyuma/non_normalized_weight_fixes
+merge groups remotes/v-sekai-godot/skeleton_bugfix_fbx_import
 merge groups remotes/SaracenOne/runtime_wave_loader
 merge groups remotes/SaracenOne/load_interactive_no_cache
 merge groups remotes/SaracenOne/skeleton_ik_fix
