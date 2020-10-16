@@ -34,7 +34,7 @@ git fetch JFonS
 
 echo -e "Work"
 git stash
-git checkout master --force
+git checkout merge-script-master --force
 git branch -D groups || true
 python3 ./thirdparty/git-assembler -av
 git checkout groups -f
@@ -44,4 +44,4 @@ git tag -a $MERGE_TAG -m "Commited at $MERGE_DATE."
 git push v-sekai-godot $MERGE_TAG
 git merge -s ours remotes/v-sekai-godot/groups
 git push -u -f v-sekai-godot groups
-git checkout master -f
+git checkout merge-script-master -f
