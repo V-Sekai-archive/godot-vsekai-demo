@@ -23,3 +23,4 @@ merge groups remotes/godot-fire/feature/3.2/spatial-audio
 merge groups remotes/godot-fire/feature/3.2/mesh-unwrap
 merge groups remotes/v-sekai-godot/rename_bones_blendshapes_3.2
 merge groups remotes/lyuma/command_queue_3.2
+merge groups remotes/Xrayez/gradient-texture-2d

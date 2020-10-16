@@ -32,6 +32,10 @@ git remote rm JFonS || true
 git remote add JFonS https://github.com/JFonS/godot.git
 git remote set-url --push JFonS https://example.com/
 git fetch JFonS
+git remote rm Xrayez || true
+git remote add Xrayez https://github.com/Xrayez/godot.git
+git remote set-url --push Xrayez https://example.com/
+git fetch Xrayez
 
 echo -e "Work"
 git stash
