@@ -50,3 +50,4 @@ git tag -a $MERGE_TAG -m "Commited at $MERGE_DATE."
 git push v-sekai-godot $MERGE_TAG
 git push v-sekai-godot groups
 git checkout merge-script-master -f
+git branch -D groups || true
