@@ -40,5 +40,6 @@ export MERGE_DATE=$(date --iso=sec --utc)
 export MERGE_TAG=$(echo v-sekai.$MERGE_DATE | tr ':' ' ' | tr -d ' \t\n\r')
 git tag -a $MERGE_TAG -m "Commited at $MERGE_DATE."
 git push v-sekai-godot $MERGE_TAG
+git merge -s ours remotes/v-sekai-godot/groups
 git push -u -f v-sekai-godot groups
 git checkout master -f
