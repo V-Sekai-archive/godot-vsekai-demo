@@ -30,7 +30,7 @@ git branch -D groups || true
 python3 ./thirdparty/git-assembler -av
 git checkout groups -f
 export merge_tag=`echo "v-sekai.`date --iso=sec --utc`"  | tr ':' ' ' | tr -d " \t\n\r"`
-git tag groups $(merge_tag)
+git tag -a $(merge_tag) -m "`echo "v-sekai.`date --iso=sec --utc`"
 git push v-sekai-godot $(merge_tag)
 git push -u -f v-sekai-godot groups
 git checkout master -f
