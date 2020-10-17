@@ -15,6 +15,10 @@ git remote rm godot-fire || true
 git remote add godot-fire https://github.com/godot-extended-libraries/godot-fire
 git remote set-url --push godot-fire https://example.com/
 git fetch godot-fire
+git remote rm fire || true
+git remote add fire https://github.com/fire/godot
+git remote set-url --push fire https://example.com/
+git fetch fire
 git remote rm godotengine || true
 git remote add godotengine https://github.com/godotengine/godot
 git remote set-url --push godotengine https://example.com/
