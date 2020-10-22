@@ -9,6 +9,7 @@ merge groups remotes/SaracenOne/gizmo_improvements
 merge groups remotes/SaracenOne/rpc_mode_get
 merge groups remotes/SaracenOne/require_shader
 merge groups remotes/lyuma/shader_struct_backport
+merge groups remotes/lyuma/shader_npr_lighting_3.2
 merge groups remotes/SaracenOne/renik
 merge groups remotes/SaracenOne/main_scene
 merge groups remotes/SaracenOne/threaddesc
@@ -22,5 +23,5 @@ merge groups remotes/v-sekai-godot/vr_fixes
 merge groups remotes/godot-fire/feature/3.2/spatial-audio
 merge groups remotes/godot-fire/feature/3.2/mesh-unwrap
 merge groups remotes/v-sekai-godot/rename_bones_blendshapes_3.2
-merge groups remotes/lyuma/command_queue_3.2
+merge groups remotes/lyuma/command_queue_fix_3.2
 merge groups remotes/v-sekai-godot/inspector-metadata-3-2
