@@ -27,3 +27,4 @@ merge groups remotes/v-sekai-godot/rename_bones_blendshapes_3.2
 merge groups remotes/v-sekai-godot/inspector-metadata-3-2
 merge groups remotes/v-sekai-godot/glsl_precision_angle_fix
 merge groups remotes/v-sekai-godot/brdf_pi_divide
+merge groups remotes/v-sekai-godot/cpu_lightmapper_3.2_upgraded
