@@ -5,7 +5,6 @@ merge groups remotes/SaracenOne/scene_tree_improvements
 merge groups remotes/SaracenOne/filesystem_dock_resource_converter
 merge groups remotes/SaracenOne/audio_effect_stream
 merge groups remotes/SaracenOne/better_bullet
-merge groups remotes/SaracenOne/gizmo_improvements
 merge groups remotes/SaracenOne/rpc_mode_get
 merge groups remotes/SaracenOne/require_shader
 merge groups remotes/lyuma/shader_struct_backport
