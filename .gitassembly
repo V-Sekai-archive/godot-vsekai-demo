@@ -28,4 +28,6 @@ merge groups remotes/v-sekai-godot/glsl_precision_angle_fix
 merge groups remotes/v-sekai-godot/brdf_pi_divide
 merge groups remotes/v-sekai-godot/texture_storage
 merge groups remotes/v-sekai-godot/texture_array_serialisation_fix
+merge groups remotes/v-sekai-godot/clear_baked_data
+
 
