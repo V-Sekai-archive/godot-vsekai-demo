@@ -10,7 +10,6 @@ merge groups remotes/lyuma/shader_struct_backport
 merge groups remotes/lyuma/shader_sampler_flag_compat_3.2
 merge groups remotes/lyuma/simple_shader_additions_3.2
 merge groups remotes/lyuma/shader_global_arrays_3.2
-merge groups remotes/v-sekai-godot/renik
 merge groups remotes/SaracenOne/main_scene
 merge groups remotes/SaracenOne/pool_range_ops
 merge groups remotes/lyuma/non_normalized_weight_fixes
