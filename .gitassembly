@@ -1,5 +1,4 @@
 stage groups remotes/godotengine/3.2
-merge groups remotes/SaracenOne/fire_skeleton_inspector
 merge groups remotes/SaracenOne/colshape_race_cond_fix
 merge groups remotes/SaracenOne/scene_tree_improvements
 merge groups remotes/SaracenOne/filesystem_dock_resource_converter
@@ -29,7 +28,7 @@ merge groups remotes/v-sekai-godot/texture_storage
 merge groups remotes/v-sekai-godot/texture_array_serialisation_fix
 merge groups remotes/v-sekai-godot/clear_baked_data
 merge groups remotes/v-sekai-godot/flag_bind_fix
-merge groups remotes/v-sekai-godot/improve_skeleton_for_vrm_3.2
+merge groups remotes/v-sekai-godot/improve_skeleton_for_vrm_with_inspector_3.2
 merge groups remotes/v-sekai-godot/audio_effect_capture_3.2
 
 
