@@ -1,4 +1,4 @@
-stage groups remotes/godotengine/3.2
+stage groups remotes/godotengine/3.x
 merge groups remotes/v-sekai-godot/colshape_race_cond_fix
 merge groups remotes/SaracenOne/scene_tree_improvements
 merge groups remotes/SaracenOne/filesystem_dock_resource_converter
