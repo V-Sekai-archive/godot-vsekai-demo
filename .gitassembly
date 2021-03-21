@@ -29,5 +29,4 @@ merge groups remotes/v-sekai-godot/clear_baked_data
 merge groups remotes/v-sekai-godot/flag_bind_fix
 merge groups remotes/v-sekai-godot/improve_skeleton_for_vrm_with_inspector_3.2
 merge groups remotes/v-sekai-godot/audio_effect_capture_3.2
-
-
+merge groups remotes/godot-fire/feature/3.2/nav
