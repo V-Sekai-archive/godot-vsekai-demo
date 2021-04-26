@@ -48,8 +48,8 @@ git fetch YeldhamDev
 echo -e "Work"
 git stash
 export ORIGINAL_BRANCH=merge-script-master
-export MERGE_REMOTE=groups
-export MERGE_BRANCH=merge-script-master
+export MERGE_REMOTE=v-sekai-godot
+export MERGE_BRANCH=groups
 git checkout $ORIGINAL_BRANCH --force
 git branch -D $MERGE_BRANCH || true
 python3 ./thirdparty/git-assembler -av --recreate
