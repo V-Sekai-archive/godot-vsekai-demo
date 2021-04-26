@@ -47,15 +47,17 @@ git fetch YeldhamDev
 
 echo -e "Work"
 git stash
-git checkout merge-script-master --force
-git branch -D groups || true
-python3 ./thirdparty/git-assembler -av
-git checkout groups -f
-export MERGE_DATE=$(date --iso=sec --utc)
-export MERGE_TAG=$(echo groups.$MERGE_DATE | tr ':' ' ' | tr -d ' \t\n\r')
-git merge -s ours remotes/v-sekai-godot/groups -m "Commited at $MERGE_DATE."
+export ORIGINAL_BRANCH=merge-script-master
+export MERGE_REMOTE=groups
+export MERGE_BRANCH=merge-script-master
+git checkout $ORIGINAL_BRANCH --force
+git branch -D $MERGE_BRANCH || true
+python3 ./thirdparty/git-assembler -av --recreate
+git checkout $MERGE_BRANCH -f
+export MERGE_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+export MERGE_TAG=$(echo extended-fire-master.$MERGE_DATE | tr ':' ' ' | tr -d ' \t\n\r')
 git tag -a $MERGE_TAG -m "Commited at $MERGE_DATE."
-git push v-sekai-godot $MERGE_TAG
-git push v-sekai-godot groups
-git checkout merge-script-master -f
-git branch -D groups || true
+git push $MERGE_REMOTE $MERGE_TAG
+git push $MERGE_REMOTE $MERGE_BRANCH -f
+git checkout $ORIGINAL_BRANCH --force
+git branch -D $MERGE_BRANCH || true
