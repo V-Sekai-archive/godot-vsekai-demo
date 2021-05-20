@@ -11,8 +11,8 @@ git remote rm lyuma || true
 git remote add lyuma https://github.com/lyuma/godot
 git remote set-url --push lyuma https://example.com/
 git fetch lyuma
-git remote rm godot-fire || true
-git remote add godot-fire https://github.com/godot-extended-libraries/godot-fire
+git remote godot-extended-libraries-godot-fire || true
+git remote add godot-extended-libraries-godot-fire https://github.com/godot-extended-libraries/godot-fire
 git remote set-url --push godot-fire https://example.com/
 git fetch godot-fire
 git remote rm fire || true
