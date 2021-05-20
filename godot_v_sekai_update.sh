@@ -55,7 +55,7 @@ git branch -D $MERGE_BRANCH || true
 python3 ./thirdparty/git-assembler -av --recreate
 git checkout $MERGE_BRANCH -f
 export MERGE_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-export MERGE_TAG=$(echo groups.$MERGE_DATE | tr ':' ' ' | tr -d ' \t\n\r')
+export MERGE_TAG=$(echo groups-4.x.$MERGE_DATE | tr ':' ' ' | tr -d ' \t\n\r')
 git tag -a $MERGE_TAG -m "Commited at $MERGE_DATE."
 git push $MERGE_REMOTE $MERGE_TAG
 git push $MERGE_REMOTE $MERGE_BRANCH -f
