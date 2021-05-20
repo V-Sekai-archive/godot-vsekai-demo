@@ -9,6 +9,7 @@ merge groups-4.x remotes/fire/gltf-bone-skinning-normalization
 # Skeleton
 merge groups-4.x remotes/godot-extended-libraries-godot-fire/features/skeleton-modification-stack
 merge groups-4.x remotes/godot-extended-libraries-godot-fire/features/skeleton-gizmos
+merge groups-4.x remotes/fire/gltf-img-failure
 # merge extended-fire-master remotes/bruvzg/msdf_fonts # diverged
 # merge extended-fire-master remotes/extended-fire-godot/feature/spatial-audio
 # merge extended-fire-master remotes/lyuma/speech_master
