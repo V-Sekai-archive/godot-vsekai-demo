@@ -24,7 +24,7 @@ git remote add godotengine https://github.com/godotengine/godot
 git remote set-url --push godotengine https://example.com/
 git fetch godotengine
 git remote rm v-sekai-godot || true
-git remote add v-sekai-godot git@github.com:v-sekai/godot.git
+git remote add v-sekai-godot git@github.com:V-Sekai/godot.git
 # Need permission to push
 #git remote set-url --push v-sekai-godot https://example.com/
 git fetch v-sekai-godot
