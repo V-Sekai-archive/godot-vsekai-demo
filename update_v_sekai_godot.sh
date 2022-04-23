@@ -25,7 +25,7 @@ echo -e "Work"
 git stash
 export ORIGINAL_BRANCH=main
 export MERGE_REMOTE=v-sekai-godot
-export MERGE_BRANCH=godot-3.4
+export MERGE_BRANCH=groups-3.4
 git checkout $ORIGINAL_BRANCH --force
 git branch -D $MERGE_BRANCH || true
 python3 ./thirdparty/git-assembler -av --recreate
