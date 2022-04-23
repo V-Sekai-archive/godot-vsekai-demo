@@ -23,7 +23,7 @@ git fetch v-sekai-godot
 
 echo -e "Work"
 git stash
-export ORIGINAL_BRANCH=godot-merge-script-3.4
+export ORIGINAL_BRANCH=main
 export MERGE_REMOTE=v-sekai-godot
 export MERGE_BRANCH=godot-3.4
 git checkout $ORIGINAL_BRANCH --force
